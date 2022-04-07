@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  testtech:
+    container_name: testtech
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
